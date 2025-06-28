@@ -1,8 +1,33 @@
 @import "tailwindcss";
 
-body{
-  margin-inline: auto;
+:root {
+  font-family: 'inter', sans-serif;
+  --clr-primary: #F6F6F6;
+  --clr-accent: #FBBD06;
+  --clr-neutral: #161616;
+
+  --ff-primary: 'Open Sans', sans-serif;
+  --ff-heading: var(--ff-primary);
+  --ff-body: 'Barlow', sans-serif;
+
+  --fw-regular: 400;
+  --fw-semi-bold: 500;
+  --fw-bold: 700;
+  --fw-light: 200;
+
+  --fs-display: 2.875rem;
+  --fs-heading: 2.25rem;
+  --fs-semi-heading: 1.8rem;
+  --fs-body: 1.125rem;
+  --fs-mini: .875rem;
+  --fs-btn: 1.5rem;
+
+
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-h1{
-  margin-inline: auto;
+.page-fade {
+  animation: fadeIn 0.5s ease-in-out;
 }
