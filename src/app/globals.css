@@ -2,13 +2,12 @@
 
 :root {
   font-family: 'inter', sans-serif;
-  --clr-primary: #F6F6F6;
-  --clr-accent: #FBBD06;
-  --clr-neutral: #161616;
+  --clr-primary: #161616;
+  --clr-accent: #f9f9f9;
+  --clr-neutral: #767676;
 
-  --ff-primary: 'Open Sans', sans-serif;
-  --ff-heading: var(--ff-primary);
-  --ff-body: 'Barlow', sans-serif;
+  --ff-primary:  sans-serif;
+  --ff-body:  sans-serif;
 
   --fw-regular: 400;
   --fw-semi-bold: 500;
@@ -28,6 +27,10 @@
   padding: 0;
   box-sizing: border-box;
 }
-.page-fade {
-  animation: fadeIn 0.5s ease-in-out;
+h1{
+  font-size: var(--fs-display);
+}
+body{
+  background-color: var(--clr-primary);
+  color: var(--clr-accent);
 }
